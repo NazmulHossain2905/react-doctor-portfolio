@@ -1,6 +1,7 @@
 import About from "./components/about";
 import Header from "./components/header";
 import NavigationBar from "./components/navigation-bar";
+import Testimonial from "./components/testimonial";
 import WorkHistory from "./components/work-history";
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
       <Header />
       <About />
       <WorkHistory />
+      <Testimonial />
     </>
   );
 };
