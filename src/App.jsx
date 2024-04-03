@@ -1,4 +1,6 @@
 import About from "./components/about";
+import CallToAction from "./components/call-to-action";
+import Footer from "./components/footer";
 import Header from "./components/header";
 import LatestEventsShow from "./components/latest-events";
 import NavigationBar from "./components/navigation-bar";
@@ -20,6 +22,8 @@ const App = () => {
       {/* <SensitivePerson /> */}
       <SuccessStory />
       <LatestEventsShow />
+      <CallToAction />
+      <Footer />
     </>
   );
 };

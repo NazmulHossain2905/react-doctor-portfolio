@@ -13,7 +13,7 @@ import logo3 from "../../assets/icons/featured-3.svg";
 
 const About = () => {
   return (
-    <div className={classes["about-container"]}>
+    <div className={classes["about-container"]} id="about">
       <div className={`${classes["about"]} container`}>
         <div className={classes["about-content"]}>
           <div className={classes["about-img-parent"]}>

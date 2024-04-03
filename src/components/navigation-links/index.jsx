@@ -14,7 +14,7 @@ const NavigationLinks = () => {
       <ul className={classes["nav-links-parent"]}>
         <li className={classes["nav-link-item"]}>
           <a
-            href="#"
+            href="/"
             onClick={() => handleActiveLink("Home")}
             className={`${classes["nav-link"]} ${
               activeLink === "Home" ? classes["active-link"] : ""
@@ -25,7 +25,7 @@ const NavigationLinks = () => {
         </li>
         <li className={classes["nav-link-item"]}>
           <a
-            href="#"
+            href="#about"
             onClick={() => handleActiveLink("About")}
             className={`${classes["nav-link"]} ${
               activeLink === "About" ? classes["active-link"] : ""
@@ -36,7 +36,7 @@ const NavigationLinks = () => {
         </li>
         <li className={classes["nav-link-item"]}>
           <a
-            href="#"
+            href="#cv"
             onClick={() => handleActiveLink("CV")}
             className={`${classes["nav-link"]} ${
               activeLink === "CV" ? classes["active-link"] : ""
@@ -47,7 +47,7 @@ const NavigationLinks = () => {
         </li>
         <li className={classes["nav-link-item"]}>
           <a
-            href="#"
+            href="#education"
             onClick={() => handleActiveLink("Education")}
             className={`${classes["nav-link"]} ${
               activeLink === "Education" ? classes["active-link"] : ""
@@ -58,7 +58,7 @@ const NavigationLinks = () => {
         </li>
         <li className={classes["nav-link-item"]}>
           <a
-            href="#"
+            href="#testimonial"
             onClick={() => handleActiveLink("Testimonial")}
             className={`${classes["nav-link"]} ${
               activeLink === "Testimonial" ? classes["active-link"] : ""
@@ -69,7 +69,7 @@ const NavigationLinks = () => {
         </li>
         <li className={classes["nav-link-item"]}>
           <a
-            href="#"
+            href="#article"
             onClick={() => handleActiveLink("Article")}
             className={`${classes["nav-link"]} ${
               activeLink === "Article" ? classes["active-link"] : ""

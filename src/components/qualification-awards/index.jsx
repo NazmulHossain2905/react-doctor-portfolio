@@ -9,7 +9,10 @@ import award3 from "../../assets/images/award-3.svg";
 
 const QualificationAwards = () => {
   return (
-    <div className={`${classes["qualification-awards"]} container`}>
+    <div
+      className={`${classes["qualification-awards"]} container`}
+      id="education"
+    >
       <div className={classes["qualification-heading-wrapper"]}>
         <h1 className={classes["qualification-heading"]}>
           My Qualification & Awards
