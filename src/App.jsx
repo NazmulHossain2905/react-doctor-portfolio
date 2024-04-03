@@ -1,5 +1,6 @@
 import About from "./components/about";
 import Header from "./components/header";
+import LatestEventsShow from "./components/latest-events";
 import NavigationBar from "./components/navigation-bar";
 import QualificationAwards from "./components/qualification-awards";
 import SensitivePerson from "./components/sensitive-person";
@@ -18,6 +19,7 @@ const App = () => {
       <QualificationAwards />
       {/* <SensitivePerson /> */}
       <SuccessStory />
+      <LatestEventsShow />
     </>
   );
 };
